@@ -1,0 +1,10 @@
+# Qwen3-VL requires Transformers 4.57.0 or newer.
+transformers>=4.57.0
+torch
+torchvision
+accelerate
+Pillow
+numpy
+soundfile
+qwen-vl-utils==0.0.14
+qwen-tts==0.1.1

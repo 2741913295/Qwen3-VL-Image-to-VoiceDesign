@@ -1,0 +1,64 @@
+# Python caches and environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Models and runtime caches
+models/
+model/
+checkpoints/
+weights/
+cache/
+.cache/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Input data and generated artifacts
+data/
+input/
+output/
+outputs/
+logs/
+tmp/
+temp/
+generated/
+*.wav
+*.mp3
+*.flac
+
+# Local copies of inference frameworks
+vllm/
+vllm-*/
+vllm-omni/
+vllm-omni-*/
+
+# Deployment layer is maintained outside this source release
+deployment/
+image_voice_api/
+requirements_api.txt
+
+# IDE and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
